@@ -1,0 +1,98 @@
+1 : git --version {find version  of git}
+
+2 : To Change Username and Email of Git :  
+				git config --global user.name "******"
+				git config --global user.email "******@****.***"
+3 : To Check Username and Email : 
+				git config --global user.name
+				git config --global user.email
+4 : Open in Edit Mode : 
+			git config --global --edit 
+
+5 : Goes Out from Edit Mode : 
+			Press [ESC + :] and Type [wq] and Hit Enter...
+
+6 : To create Folder To Git Repository : 
+				In Command Propmt Open That Folder and type : { git init }  Command.
+			
+7 : Show Status Of Files : 
+			git Status
+
+8 :  Enter File in Tracking Mode After All Comit are Visible :    
+						git add filename.extention
+
+9 : Commit A File : 
+		git commit -m "Meassage you want to Display ..."
+
+10 :  To show List of commits :
+			git log
+
+11 : To add All file in staging area : 
+				git add .{dot}
+
+12 : Go to any Check out Time : 
+			 	git checkout {hashcode}
+				hashcode copy from log command
+13 : Again go to current Time of Changes : 
+				git checkpout master
+					
+				mainly use of checkout command is swithing one branch to other branch
+14 : Show Current Brach : 
+			git brach 
+**************************************************************************************************************************************************************
+---------------------- |
+Concept of Branch |
+---------------------- |
+
+Branch is a concept of without affect any other branch file work with your own branch after all things work properly add them into other or parent branch...
+
+15 : To Create Branch :
+			git branch <Branch_name>
+
+16 : Switch Master Branch to other Branch or one to other  : 
+						git checkout <branch_name>
+
+17 : Create a Branch and Switch Directly : 
+				git checkout -b <branch_name>
+
+18 : All changes copy in other branch  :
+				first go to Destination branch 
+				git merge <branch_name>{source branch name} 
+***************************************************************************************************************************************************************
+----------------------------- |
+Concept of .gitignore file |
+----------------------------- |
+
+if user want's any file can not goes into git echo system or git can not track any file than this concept will use 
+
+19 : Create gitignore file :
+ 			touch .gitignore 
+				or
+			create maually with name .gitignore 
+
+After create this file write that file name in this which you don't want to track 
+
+Also you can add .gitignore file into this ignore file 
+****************************************************************************************************************************************************************
+
+-----------------------|
+Concept of GitHub |
+-----------------------|
+20 : To add your repo in github {3 commad will follow acccordingly to your repo}: 
+
+			git remote add origin <path of git hub repo {https://github.com/username//repositoryname-.git} >
+			git branch -M main
+			git push -u origin main
+
+here origin is just name instence of them you will give anyone you want to give 
+
+After once this done and after that any changes do in any file simply commit and [ git push ] commad is work to push
+
+21 : Push Branch in github : 
+			git push -u origin <branch_name>
+
+ **************************************************************************************************************************************************************************************
+
+
+ 
+					  
